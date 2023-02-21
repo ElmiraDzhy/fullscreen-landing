@@ -1,0 +1,79 @@
+@import url(./reset.css);
+
+:root{
+    color: var(--main-brown-shade);
+}
+
+*{
+    box-sizing: border-box;
+    --main-brown-shade: #926239;
+}
+
+body{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    padding: none;
+    margin: none;
+}
+
+.header{
+    height: 100vh;
+
+    line-height: 1.5;
+    text-align: center;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 40vh;
+}
+
+.description{
+    font-size: 20px;
+}
+
+.btn{
+    margin: 20px;
+padding: 10px 20px;
+    width: 150px;
+font-size: 18px;
+    color: var(--main-brown-shade);
+    border: 1px solid var(--main-brown-shade);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: var(--main-brown-shade);
+    color: white;
+}
+
+article{
+    text-align: center;
+    font-size: 17px;
+}
+
+.mini-section{
+    display: inline-block;
+    width: 33.1%;
+    font-size: 17px;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.backgroung-brown{
+    background-color: var(--main-brown-shade);
+    color: white;
+}
+
+.great-article{
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.backgroung-white{
+    background-color: white;
+    color: var(--main-brown-shade);
+}
