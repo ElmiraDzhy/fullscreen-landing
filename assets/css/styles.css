@@ -24,6 +24,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 
     line-height: 1.5;
     text-align: center;
