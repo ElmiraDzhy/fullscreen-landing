@@ -113,3 +113,36 @@ article{
     background-color: white;
     color: var(--main-brown-shade);
 }
+
+
+@media screen and (max-width: 376px) {
+    .header > h1{
+        font-size: 20px;
+    }
+
+    .description{
+        font-size: 14px;
+        padding: 0 5px;
+    }
+
+    .btn{
+    padding: 5px 10px;
+    align-self: center;
+    width: 100px;
+    font-size: 10px;
+    }
+
+    .great-article{
+        font-size: 14px;
+    }
+
+    .mini-articles-wrapper{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .mini-section{
+        font-size: 14px;
+    }
+}
